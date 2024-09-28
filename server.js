@@ -37,7 +37,7 @@ app.post("/contact-form", async (req, res) => {
   try {
     console.log("data is:", data);
     const response = await axios.post(
-      "https://script.google.com/macros/s/AKfycby0IO6oS_XoQEV_sl6tMsj7-nr_r2A7gc1RA7kOJFwXNoGRwQHyrCQt2GBpYAPKu2YwrA/exec",
+      "https://script.google.com/macros/s/AKfycbwefT6JZ0sApeteLYR-SiFt-ydDQhxp2EEac9qedbgTmGggQn_m41sjOdxJogNGnnw8Rg/exec",
       data
     );
     console.log("get here (updated)");
