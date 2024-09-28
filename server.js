@@ -20,7 +20,7 @@ app.post("/submit-form", async (req, res) => {
   try {
     console.log("data is:", data);
     const response = await axios.post(
-      "https://script.google.com/macros/s/AKfycbx4s1dMZkppjnTgQ1Y7ml9ZI28ySXraFsjJeVThhOKhxeLRiHd908s3rsaoNOZnO1E3/exec",
+      "https://script.google.com/macros/s/AKfycbwLzR4IZceFm2yPH9HeHFfTW28P53ljrqQQJk6LGTDi-eDNXYEwcADfW9q9ElFXeBZx/exec",
       data
     );
     console.log("get here");
